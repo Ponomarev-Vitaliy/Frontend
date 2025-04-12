@@ -4,6 +4,8 @@ body{
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
+    color: rgb(55, 58, 57);
+    
 }
  
 a{
@@ -40,4 +42,46 @@ a{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     letter-spacing: 0.6px;
+    transition: all .5s;
+}
+.menu__list-link:hover{
+    border-bottom: 1px solid rgb(252, 187, 8);
+}
+.header__content{
+    background-image: url('../images/header-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.header__content-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height:calc(100vh - 93px);
+}
+.header__title{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 88px;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: 19px;
+    padding-top: 150px;
+}
+.header__subtitle{
+    color: rgb(252, 187, 8);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2.74px;
+    text-transform: uppercase;
+    margin-bottom: auto;
+}
+.header__icon{
+    margin-bottom: 62px;
 }
