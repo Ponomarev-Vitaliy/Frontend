@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.slider{
+    width: 1000px;
+    margin: 0 auto;
+}
