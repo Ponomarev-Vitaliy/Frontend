@@ -206,3 +206,20 @@ a{
     letter-spacing: 4.29px;
     margin-bottom: 14px;
 }
+.magic{
+    background: rgb(246, 248, 250);
+    background-image: url('../images/magic-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size:50%;
+}
+.magic__inner{
+    max-width: 470px;
+    margin-left: auto;
+    padding: 100px 0 190px;
+}
+.magic__title{
+    margin-bottom: 67px;
+}
+.magic__text p{
+    margin-bottom: 25px;
+}
