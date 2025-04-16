@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>
 <body>
     <header class="header">
@@ -136,11 +137,84 @@
             </div>
         </div>
     </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__top">
+                <h2 class="title gallery__title">Галерея</h2>
+                <div class="gallery__filter-btn">
+                    <button data-filter="all" class="gallery__btn">Все</button>
+                    <button data-filter=".category-a" class="gallery__btn">Туристы</button>
+                    <button data-filter=".category-b" class="gallery__btn">Природа</button>
+                    <button data-filter=".category-c" class="gallery__btn">Профи</button>
+                </div>
+            </div>
+            <div class="gallery__content">
+                <div class="gallery__item mix category-a">
+                    <img src="images/gallery/1.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link"></a>
+                </div>
+                <div class="gallery__item mix category-a">
+                    <img src="images/gallery/2.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link"></a>
+                </div>
+                <div class="gallery__item mix category-b">
+                    <img src="images/gallery/3.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link">1</a>
+                </div>
+                <div class="gallery__item mix category-b">
+                    <img src="images/gallery/4.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link"></a>
+                </div>
+                <div class="gallery__item mix category-c">
+                    <img src="images/gallery/5.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link"></a>
+                </div>
+                <div class="gallery__item mix category-c">
+                    <img src="images/gallery/6.jpeg" alt="gallery image">
+                    <a href="#" class="gallery__item-link"></a>
+                </div>
+            </div>
+            <a class="gallery__add" href="#">
+                Показать еще
+            </a>  
+        </div> 
+        <blockquote class="blockquote">
+            «Если сомневаешься – иди катайся.»
+            <span class="blockquote__author">Нэт Янг, первый Чемпион Мира по сёрфингу</span>
+        </blockquote> 
+        <div class="container">
+            <div class="gallery__video">
+                <a data-fancybox="" class="gallery__video-link" href="https://www.youtube.com/watch?v=7XSDZfBLkYQ">
+                    <img src="images/play-icon.svg" alt="play-icon">
+                </a>
+            </div>
+            <div class="gallery__numbers">
+                <h5 class="gallery__numbers-item">
+                    450
+                    <span>туристов</span>
+                </h5>
+                <h5 class="gallery__numbers-item">
+                    2500
+                    <span>часов катания</span>
+                </h5>
+                <h5 class="gallery__numbers-item">
+                    10
+                    <span>проф. тренеров</span>
+                </h5>
+                <h5 class="gallery__numbers-item">
+                    365
+                    <span>дней в году</span>
+                </h5>
+            </div>
+        </div>
+    </section>
 
 
 
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
