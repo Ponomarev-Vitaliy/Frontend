@@ -412,8 +412,8 @@ a{
     transform: translateY(-150%); 
 }
 .slick-prev{
-    left: -95px;
+    left: -75px;
 }
 .slick-next{
-    right: -95px;
+    right: -75px;
 }
