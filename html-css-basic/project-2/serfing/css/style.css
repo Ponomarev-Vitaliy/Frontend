@@ -305,7 +305,6 @@ body{
 .gallery__numbers{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 200px;
 }
 .gallery__numbers-item{
     color: rgb(1, 53, 62);
@@ -325,4 +324,92 @@ body{
     line-height: 18px;
     letter-spacing: 0.6px;
     display: block;
+}
+.blog__title{
+    margin-bottom: 229px;
+}
+.blog__slider{
+    min-height: 600px;
+    background-image: url('../images/blog-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 77px;
+
+    
+}
+.blog__slider-item-title{
+    width: 600px;
+    margin-left: auto;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.blog__slider-item-link{
+    text-decoration: none;
+}
+
+.blog__slider-item-desc{
+    width: 600px;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    margin-bottom: 259px;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li + li{
+    margin-left: 15px;
+}
+.slick-dots button{
+    background: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 0;
+    padding: 0;
+    border: none;
+
+}
+.slick-dots .slick-active button{
+    background: rgb(0, 178, 160);
+}
+.team{
+    padding: 200px 0 200px;
+}
+.team__title{
+    margin-bottom: 212px;
+}
+.team__items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team__name{
+    margin-top: 25px;
+    color: rgb(36, 33, 33);
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+.team__position{
+    color: rgb(36, 33, 33);
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
 }
